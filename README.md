@@ -41,12 +41,10 @@
 
 ## Building and Running
 1. Install Visual Studio (or vs-build-tools) with `.NET Desktop Development`.
-2. Open `SOSGame.sln`, set `SOSGameGU` as startup project, press **F5**.
+2. Open `SOSGame.sln`, set `SOSGameGU` as the startup project, and press **F5**.
 3. For CLI build: `dotnet build SOSGame.sln`.
 
 ## Contributing Tips
 - Keep UI-free logic inside `SOSGameLogic` to preserve testability.
 - Favor interface-first designs when introducing new managers or services.
 - Leverage WPF data binding (e.g., `INotifyPropertyChanged`) if you expand UI state—current code uses direct control updates for clarity.
-
-Enjoy exploring the C# patterns embedded in this SOS implementation!
